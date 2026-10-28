@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+/vendor/
+/config/mail.php
+/mail_debug.log
+/database/*.sql
+/profile/*
+!/profile/.gitkeep
+/uploads/*
+!/uploads/.gitkeep
+/storage/*
+!/storage/.gitkeep

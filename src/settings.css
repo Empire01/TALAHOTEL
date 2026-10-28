@@ -1,0 +1,325 @@
+/* Default Light Mode Styles */
+
+/* General Styles */
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: #fff;  /* Light background */
+  color: #333;  /* Dark text color */
+}
+
+/* Navbar */
+.navbar {
+  background-color: #f8f9fa;  /* Light background for navbar */
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar .navbar-brand, .navbar .nav-link {
+  color: #333;  /* Dark text color for navbar items */
+}
+
+.navbar .navbar-toggler {
+  border-color: #333;
+}
+
+.dark-mode .alert .rooms {
+  background-color: #2c2f36 !important;
+  color: #e0e0e0 !important;
+  border: 1px solid #444 !important;  
+}
+
+.dark-mode .reserve-room {
+  background-color: #2c2f36 !important;
+  color: #e0e0e0 !important;
+  border: 1px solid #444 !important;  
+}
+
+/* Cards */
+.card {
+  background-color: #fff;  /* Light card background */
+  border: 1px solid #ddd;
+}
+
+.card-header, .card-body {
+  background-color: #fff;  /* Card background */
+}
+
+.card-title, .card-text {
+  color: #333;  /* Dark text */
+}
+
+.card-footer {
+  background-color: #f1f1f1;  /* Footer background */
+  color: #333;  /* Text color */
+}
+
+/* Form Inputs */
+input[type="text"], input[type="password"], input[type="email"], select, textarea {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+/* Placeholder for Dark Mode */
+.dark-mode input::placeholder,
+.dark-mode textarea::placeholder {
+  color: #b0b0b0 !important;  /* Lighter placeholder text color */
+}
+
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, select:focus, textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Modals */
+.modal-content {
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.modal-header, .modal-body {
+  background-color: #fff;
+  color: #333;
+}
+
+th, td {
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+/* Footer */
+footer {
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+footer a {
+  color: #007bff;
+}
+
+footer a:hover {
+  color: #0056b3;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+  background-color: #181818 !important;  /* Dark background */
+  color: #e0e0e0 !important;  /* Light text */
+}
+
+/* Navbar - Dark Mode */
+.dark-mode .navbar {
+  background-color: #2c2f36 !important;  /* Dark navbar */
+  border-bottom: 1px solid #444 !important;
+}
+
+.dark-mode .navbar .navbar-brand, .dark-mode .navbar .nav-link {
+  color: #e0e0e0 !important;
+}
+
+.dark-mode .navbar .navbar-toggler {
+  border-color: #666 !important;
+}
+
+/* Cards - Dark Mode */
+.dark-mode .card {
+  background-color: #2c2f36 !important;  /* Dark card background */
+  border: 1px solid #444 !important;
+}
+
+.dark-mode .card-header, .dark-mode .card-body {
+  background-color: #2c2f36 !important;
+}
+
+.dark-mode .card-title, .dark-mode .card-text {
+  color: #e0e0e0 !important;
+}
+
+.dark-mode .card-footer {
+  background-color: #333 !important;
+  color: #b0b0b0 !important;
+}
+
+/* Buttons - Dark Mode */
+.dark-mode .btn {
+  color: white !important;
+}
+
+.dark-mode h6 {
+  color: #e0e0e0 !important;
+}
+
+.dark-mode section h4, .bi-plus-lg {
+  color: #e0e0e0 !important;
+}
+
+/* Form Inputs - Dark Mode */
+.dark-mode input[type="text"], .dark-mode input[type="password"], .dark-mode input[type="date"], .dark-mode input[type="file"], .dark-mode input[type="number"], .dark-mode input[type="email"], .dark-mode select, .dark-mode textarea {
+  background-color: #2c2f36 !important;
+  color: #e0e0e0 !important;
+  border: 1px solid #444 !important;
+}
+
+.dark-mode .reserve-dark-mode, .alert-primary {
+  background-color: #2c2f36 !important;
+  color: #e0e0e0 !important;
+  border: 1px solid #444 !important;  
+}
+
+.dark-mode .top-profile {
+  background-color: #2c2f36 !important;
+  color: #e0e0e0 !important;
+  border: 1px solid #444 !important;  
+}
+
+.dark-mode .info-dark-mode {
+  color: #ff6a00 !important;
+}
+
+.dark-mode .included-package-dark-mode {
+  color: #e0e0e0 !important;
+}
+
+.dark-mode #profileTabs {
+  border-bottom: 1px solid #444 !important; 
+}
+
+.dark-mode #border-image-preview-package, #package_1, #package_2, #package_3 {
+  border: 1px solid #444 !important;  
+}
+
+.dark-mode #border-image-preview {
+  border: 1px solid #444 !important;  
+}
+
+.dark-mode .swal2-title {
+  color: #2c2f36 !important;
+}
+
+.dark-mode h2 {
+  color: #e0e0e0 !important;
+}
+
+.dark-mode td {
+  background-color: #2c2f36 !important;
+  color: #e0e0e0 !important;
+  border: 1px solid #444 !important;
+}
+
+.dark-mode .room-item {
+  background-color: #2c2f36 !important;
+  color: #e0e0e0 !important;
+  border: 1px solid #444 !important;
+}
+
+.dark-mode .calendar-price {
+  color: #e0e0e0 !important;
+}
+
+.dark-mode #calendar {
+  background-color: #2c2f36 !important;
+  color: #e0e0e0 !important;
+  border: 1px solid #444 !important;
+}
+
+.dark-mode .form-section {
+  background-color: #2c2f36 !important;
+  color: #e0e0e0 !important;
+  border: 1px solid #444 !important;
+}
+
+.dark-mode .calendar-small {
+  color: #e0e0e0 !important;
+}
+
+.dark-mode .profile-image-container {
+  z-index: 9999 !important;
+}
+
+.dark-mode input[type="text"]:focus, .dark-mode input[type="password"]:focus, .dark-mode input[type="email"]:focus, .dark-mode select:focus, .dark-mode textarea:focus {
+  border-color: #ff8c00 !important;
+}
+
+.dark-mode label {
+  color: #e0e0e0 !important;
+}
+
+.dark-mode h5 {
+  color: #e0e0e0 !important;
+}
+
+.dark-mode p {
+  color: #e0e0e0 !important;
+}
+
+.dark-mode small {
+  color: #e0e0e0 !important;
+}
+
+.dark-mode span {
+  color: #e0e0e0 !important;
+}
+
+/* Modals - Dark Mode */
+.dark-mode .modal-content {
+  background-color: #2c2f36 !important;
+  border: 1px solid #444 !important;
+}
+
+.dark-mode .help-container-dark {
+  background-color: #2c2f36 !important;
+  border: 1px solid #444 !important;
+}
+
+.dark-mode .login-form-dark {
+  background-color: #2c2f36 !important;
+  border: 1px solid #444 !important;
+}
+
+.dark-mode .modal-header, .dark-mode .modal-body {
+  background-color: #2c2f36 !important;
+  color: #e0e0e0 !important;
+}
+
+/* Table - Dark Mode */
+.dark-mode table {
+  background-color: #2c2f36 !important;
+  color: #e0e0e0 !important;
+}
+
+.dark-mode th, .dark-mode td {
+  border-color: #444 !important;
+}
+
+.dark-mode th {
+  background-color: #333 !important;
+  color: #e0e0e0 !important;
+}
+
+/* Footer - Dark Mode */
+.dark-mode footer {
+  background-color: #2c2f36 !important;
+  color: #b0b0b0 !important;
+}
+
+.dark-mode .list-group-item-action {
+  background-color: #2c2f36 !important;
+  border-color: #444 !important;
+}
+
+.dark-mode #forgotPasswordForm {
+  background-color: #2c2f36 !important;
+  border-color: #444 !important;
+}
+
+.dark-mode footer a {
+  color: #ff8c00 !important;
+}
+
+.dark-mode footer a:hover {
+  color: #ff6a00 !important;
+}

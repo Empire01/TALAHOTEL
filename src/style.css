@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  font-family: "Archivo", sans-serif !important;
+  font-style: normal;
+}
+:root {
+  --background-color: #F1EFEC;
+}
+body {
+  padding-top: 70px !important;
+  background-color: var(--background-color) !important;
+}
